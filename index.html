@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nicholas Housain — Car Enthusiast, Builder & MET Student</title>
+<meta name="description" content="Nicholas Housain, 18, Mechanical Engineering Technology major at NJIT. Car reviews, photography, autobody, car audio, DIY builds and coding projects." />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">NH<span>.</span></a>
+    <nav class="links" id="navLinks">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-small" href="https://www.youtube.com/@tcg2008" target="_blank" rel="noopener">YouTube</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">🏁 ThatCarGuyNick — NJIT '29</p>
+      <h1>Nicholas<br><span>Housain</span></h1>
+      <p class="subtitle">18 · Mechanical Engineering Technology major at NJIT.<br>I review cars, shoot cars, fix cars, wire cars — and code.</p>
+      <div class="hero-btns">
+        <a href="projects.html" class="btn btn-primary">View My Work →</a>
+        <a href="about.html" class="btn btn-ghost">About Me</a>
+      </div>
+      <div class="socials channels">
+        <a class="channel" href="https://www.youtube.com/@tcg2008" target="_blank" rel="noopener">
+          <img src="Photos/youtube-profile.jpg" alt="ThatCarGuyNick YouTube profile" />
+          <span>▶ YouTube<br><small>ThatCarGuyNick · @tcg2008</small></span>
+        </a>
+        <a class="channel" href="https://www.instagram.com/thatcarguy_nick" target="_blank" rel="noopener">
+          <img src="Photos/instagram-profile.jpg" alt="thatcarguy_nick Instagram profile" />
+          <span>📸 Instagram<br><small>@thatcarguy_nick · 442 followers</small></span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=800&q=80" alt="Sports car" />
+      <div class="hero-card-body">
+        <div class="stat-row">
+          <div><strong>6+</strong><span>Projects</span></div>
+          <div><strong>3</strong><span>Car Builds</span></div>
+          <div><strong>2</strong><span>Code Apps</span></div>
+        </div>
+        <p class="note">Autobody shop experience · Car audio installs · DIY Bluetooth speaker · Weather & News API apps</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container section">
+  <h2 class="section-title">What I Do</h2>
+  <div class="cards-3">
+    <div class="card reveal">
+      <div class="icon">🚗</div>
+      <h3>Car Content</h3>
+      <p>Car reviews on YouTube & Instagram as <b>ThatCarGuyNick</b> plus automotive photography.</p>
+      <a href="projects.html#media" class="link">See media work →</a>
+    </div>
+    <div class="card reveal">
+      <div class="icon">🔧</div>
+      <h3>Hands-On Builds</h3>
+      <p>Autobody shop work, car audio installs, and a from-scratch Bluetooth speaker.</p>
+      <a href="projects.html#builds" class="link">See builds →</a>
+    </div>
+    <div class="card reveal">
+      <div class="icon">💻</div>
+      <h3>Code + Data</h3>
+      <p>Weather and news apps using real APIs and live data as an engineering student who codes.</p>
+      <a href="projects.html#code" class="link">See code →</a>
+    </div>
+  </div>
+</section>
+
+<section class="strip">
+  <div class="container strip-grid">
+    <div>
+      <h2>Mechanical Engineering Technology @ NJIT</h2>
+      <p>Where wrench-time meets engineering theory. I want to understand how things work — then make them louder, faster, and smarter.</p>
+      <a href="about.html" class="btn btn-primary">More About Me</a>
+    </div>
+    <ul class="checklist">
+      <li>✓ Autobody repair & prep</li>
+      <li>✓ 12V audio wiring & installs</li>
+      <li>✓ Photography & video editing</li>
+      <li>✓ Python / JS / REST APIs</li>
+    </ul>
+  </div>
+</section>
+
+<section class="container section" id="contact">
+  <h2 class="section-title">Get In Touch</h2>
+  <div class="contact-grid">
+    <div>
+      <p>Want to talk cars, collab on a review, or see my code? Reach out.</p>
+      <p class="socials">
+        <a href="https://www.youtube.com/@tcg2008" target="_blank" rel="noopener">YouTube</a> ·
+        <a href="https://www.instagram.com/thatcarguy_nick" target="_blank" rel="noopener">Instagram</a>
+      </p>
+    </div>
+    <form class="form" id="contactForm" novalidate>
+      <input type="text" id="cName" placeholder="Your name" required />
+      <input type="email" id="cEmail" placeholder="Your email" required />
+      <textarea id="cMsg" rows="4" placeholder="Message..." required></textarea>
+      <button class="btn btn-primary" type="submit">Send Message</button>
+      <p class="form-msg" id="formMsg"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container foot">
+    <p>© <span id="year"></span> Nicholas Housain · Built for GitHub Pages</p>
+    <p><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="projects.html">Projects</a></p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

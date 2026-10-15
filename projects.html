@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projects — Nicholas Housain</title>
+<link rel="stylesheet" href="css/style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">NH<span>.</span></a>
+    <nav class="links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html" class="active">Projects</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-small" href="https://www.youtube.com/@tcg2008" target="_blank" rel="noopener">YouTube</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="container section page-head">
+  <p class="eyebrow">Achievements & Projects</p>
+  <h1>My <span>Work</span></h1>
+  <p class="subtitle">Cars, builds, and code. Filter by category:</p>
+  <div class="filters">
+    <button class="filter active" data-filter="all">All</button>
+    <button class="filter" data-filter="media">🎥 Media</button>
+    <button class="filter" data-filter="builds">🔧 Builds</button>
+    <button class="filter" data-filter="code">💻 Code</button>
+  </div>
+</section>
+
+<section class="container proj-grid" id="projGrid">
+  <article class="proj card" data-cat="media" id="media">
+    <img src="Photos/youtube-profile.jpg" alt="ThatCarGuyNick YouTube channel avatar" data-lightbox style="object-fit:cover;aspect-ratio:1;max-height:220px;" />
+    <div class="proj-body">
+      <span class="pill">🎥 Media · YouTube / Instagram</span>
+      <h3>Car Reviewing — ThatCarGuyNick</h3>
+      <p>Walkarounds, POV drives, and honest reviews. Filmed, edited and published by me. Verified live channels:</p>
+      <div class="proj-links">
+        <a class="btn btn-small btn-primary" href="https://www.youtube.com/@tcg2008" target="_blank" rel="noopener">YouTube @tcg2008 ↗</a>
+        <a class="btn btn-small btn-ghost" href="https://www.instagram.com/thatcarguy_nick" target="_blank" rel="noopener">Instagram @thatcarguy_nick ↗</a>
+      </div>
+      <div class="channels" style="margin-top:10px">
+        <a class="channel" href="https://www.youtube.com/@tcg2008" target="_blank" rel="noopener"><img src="Photos/youtube-profile.jpg" alt="YT" /><span>YouTube</span></a>
+        <a class="channel" href="https://www.instagram.com/thatcarguy_nick" target="_blank" rel="noopener"><img src="Photos/instagram-profile.jpg" alt="IG" /><span>Instagram</span></a>
+      </div>
+    </div>
+  </article>
+
+  <article class="proj card" data-cat="media">
+    <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80" alt="Car photography" data-lightbox />
+    <div class="proj-body">
+      <span class="pill">📸 Media · Photography</span>
+      <h3>Car Photography</h3>
+      <p>Rolling shots, night shots, meets & stance. Click any photo to view full-size.</p>
+      <div class="proj-links"><span class="meta">Lightroom · Composition · Editing</span></div>
+    </div>
+  </article>
+
+  <article class="proj card" data-cat="builds" id="builds">
+    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=800&q=80" alt="Autobody shop" data-lightbox />
+    <div class="proj-body">
+      <span class="pill">🔧 Builds · Shop Experience</span>
+      <h3>Autobody Shop Work</h3>
+      <p>Hands-on shop time: sanding & prep, body filler, masking, paint support, buffing & detailing.</p>
+      <div class="proj-links"><span class="meta">Skills: prep · filler · paint · detail</span></div>
+    </div>
+  </article>
+
+  <article class="proj card" data-cat="builds">
+    <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=800&q=80" alt="Car audio" data-lightbox />
+    <div class="proj-body">
+      <span class="pill">🔊 Builds · 12V Audio</span>
+      <h3>Car Audio Installs</h3>
+      <p>Head units, amps, subs, component speakers. Clean wiring, proper grounds, tuned crossovers.</p>
+      <div class="proj-links"><span class="meta">Wiring · Amps · Subs · Tuning</span></div>
+    </div>
+  </article>
+
+  <article class="proj card" data-cat="builds">
+    <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=80" alt="Bluetooth speaker" data-lightbox />
+    <div class="proj-body">
+      <span class="pill">🔨 Builds · DIY Electronics</span>
+      <h3>DIY Bluetooth Speaker</h3>
+      <p>Built my own portable speaker: enclosure design, amp board, drivers, battery + charging.</p>
+      <div class="proj-links"><span class="meta">Woodwork · Soldering · Acoustics</span></div>
+    </div>
+  </article>
+
+  <article class="proj card" data-cat="code" id="code">
+    <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80" alt="Weather app" data-lightbox />
+    <div class="proj-body">
+      <span class="pill">💻 Code · API + Data</span>
+      <h3>Weather App</h3>
+      <p>Live weather using a public API: search any city, see temp, conditions & forecast. Data fetching + JSON.</p>
+      <div class="proj-links"><span class="meta">JS · Fetch · OpenWeather-style API</span></div>
+    </div>
+  </article>
+
+  <article class="proj card" data-cat="code">
+    <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=800&q=80" alt="News app" data-lightbox />
+    <div class="proj-body">
+      <span class="pill">💻 Code · API + Data</span>
+      <h3>News App</h3>
+      <p>Live headlines app with categories & search using a news API. Cards, filtering, responsive layout.</p>
+      <div class="proj-links"><span class="meta">JS · REST API · Filtering</span></div>
+    </div>
+  </article>
+</section>
+
+<div class="lightbox" id="lightbox"><img id="lightboxImg" alt="" /><span id="lightboxClose">✕</span></div>
+
+<section class="container section center">
+  <h2>Want the code or a collab?</h2>
+  <p>Check my GitHub or message me from the home page.</p>
+  <a class="btn btn-primary" href="index.html#contact">Contact Me</a>
+</section>
+
+<footer>
+  <div class="container foot">
+    <p>© <span id="year"></span> Nicholas Housain · Built for GitHub Pages</p>
+    <p><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="projects.html">Projects</a></p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
