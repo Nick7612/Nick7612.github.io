@@ -11,4 +11,4 @@ How to add a photo:
 Current files:
 - `youtube-profile.jpg` — YouTube channel avatar
 - `instagram-profile.jpg` — Instagram avatar
-- `headshot.jpg` — (add this to show your photo on about.html)
+- `headshot.jpg` — Nick's photo on `about.html` (768×1024)
